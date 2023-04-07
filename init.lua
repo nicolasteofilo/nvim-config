@@ -1,2 +1,4 @@
 require('plugins')
-vim.cmd[[colorscheme nord]]
+require('treesitter-config')
+vim.cmd[[colorscheme dracula]]
+
