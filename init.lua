@@ -8,6 +8,6 @@ require('web-dev-icons-config')
 require('cmp-config')
 require('lsp-config')
 require('autopairs-config')
+require('prettier-config')
 
 vim.cmd[[colorscheme dracula]]
-
