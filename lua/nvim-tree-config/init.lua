@@ -2,7 +2,6 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 vim.g.nvim_tree_width = 25
 vim.g.nvim_tree_gitignore = 1
-vim.cmd('nnoremap <space>e :NvimTreeToggle<CR>')
 local function open_nvim_tree()
   require("nvim-tree.api").tree.open()
 end

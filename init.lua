@@ -9,5 +9,6 @@ require('cmp-config')
 require('lsp-config')
 require('autopairs-config')
 require('prettier-config')
+require('keys-mapping')
 
 vim.cmd[[colorscheme dracula]]
