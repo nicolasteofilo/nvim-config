@@ -7,5 +7,5 @@ vim.g['prettier#quickfix_enabled'] = '1'
 vim.g['prettier#config#single_quote'] = 'true'
 vim.g['prettier#config#trailing_comma'] = 'es5'
 vim.g['prettier#config#semi'] = 'false'
-vim.cmd([[autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.json PrettierAsync silent]])
+-- vim.cmd([[autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.json PrettierAsync silent]])
 

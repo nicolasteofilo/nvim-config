@@ -31,4 +31,7 @@ return require('packer').startup(function(use)
     config = function() require("nvim-autopairs").setup {} end
   }
   use 'prettier/vim-prettier'
+  use 'jose-elias-alvarez/null-ls.nvim'
+  use 'mfussenegger/nvim-lint'
+  use 'sbdchd/neoformat'
 end)

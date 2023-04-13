@@ -10,5 +10,6 @@ require('lsp-config')
 require('autopairs-config')
 require('prettier-config')
 require('keys-mapping')
+require('eslint-config')
 
 vim.cmd[[colorscheme dracula]]
